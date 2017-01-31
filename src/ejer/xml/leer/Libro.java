@@ -1,6 +1,7 @@
 package ejer.xml.leer;
 
-public class Libreo {
+public class Libro {
+	
 	private String isbn;
 	private String titulo;
 	private String autor;
@@ -8,8 +9,6 @@ public class Libreo {
 	private String editorial;
 	
 	
-	
-	//Generamos get and set
 	public String getIsbn() {
 		return isbn;
 	}
@@ -40,6 +39,8 @@ public class Libreo {
 	public void setEditorial(String editorial) {
 		this.editorial = editorial;
 	}
+	
+	
 	
 	
 
